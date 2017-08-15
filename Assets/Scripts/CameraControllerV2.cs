@@ -106,6 +106,7 @@ public class CameraControllerV2 : MonoBehaviour {
     }
 
     void Start() {
+        //Cursor.lockState = CursorLockMode.Locked;
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb)
             rb.freezeRotation = true;
