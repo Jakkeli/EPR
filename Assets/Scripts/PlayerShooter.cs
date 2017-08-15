@@ -16,6 +16,7 @@ public class PlayerShooter : MonoBehaviour {
     Vector3 shootDir;
     public GameObject c;
     public GameObject thingie;
+    public GunManager gunManager;
 
 	void Start () {
 		
@@ -31,6 +32,7 @@ public class PlayerShooter : MonoBehaviour {
             Quaternion rot = hit.transform.rotation;
             Instantiate(thingie, hit.point, rot);
         }
+        gunManager.Fire();
     }
 
 	void Update () {
