@@ -10,12 +10,11 @@ public class PlayerShooter : MonoBehaviour {
     public GunType currentGunType;
     public GunState currentGunState;
     public Transform startPoint;
-    public Transform theOtherPoint;
 
-    public float maxRange;
-    public float accuracy;
-    public float fireRate;
-    float tickTime;
+    public float M3maxRange;
+    public float M3accuracy;
+    public float M3fireRate;
+    float tickTimeM3;
     public LayerMask hitByPlayer;
     Ray ray;
     public PlayerMovement pm;
@@ -28,20 +27,45 @@ public class PlayerShooter : MonoBehaviour {
     public ParticleSystem M3smoke;
     public Animator M3animator;
 
+    public ParticleSystem bzkFlash;
+    public ParticleSystem bzkSmoke;
+
+    public float bazookaFireRate;
+    public float bazookaMaxRange;
+    public GameObject M3;
+    public GameObject bazooka;
+    float tickTimeBazooka;
+    bool bazookaFired;
+    public Transform bazookaStartPoint;
+    public GameObject rocket;
+
     void Start () {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        tickTime = fireRate;
+        //tickTime = fireRate;
+    }
+
+    void ChangeWeapon() {
+        if (currentGunType == GunType.M3) {
+            currentGunType = GunType.RocketLauncher;
+            M3.SetActive(false);
+            bazooka.SetActive(true);
+        } else {
+            currentGunType = GunType.M3;
+            bazooka.SetActive(false);
+            M3.SetActive(true);
+        }
+        tickTimeM3 = 0;
     }
 	
-    void FireAGun() {
+    void FireM3() {
         if (currentGunType == GunType.M3) {
             M3flash.Play();
             M3smoke.Play();
-            print("fire");
+            print("fire M3");
             shootDir = c.transform.forward;
             RaycastHit hit;
             ray = new Ray(startPoint.position, shootDir);
-            if (Physics.Raycast(ray, out hit, maxRange, hitByPlayer)) {
+            if (Physics.Raycast(ray, out hit, M3maxRange, hitByPlayer)) {
                 print("hit something");
                 Quaternion rot = hit.transform.rotation;
                 Instantiate(thingie, hit.point, rot);
@@ -49,22 +73,67 @@ public class PlayerShooter : MonoBehaviour {
         }        
     }
 
+    void FireBazoooka() {
+        bazookaFired = true;
+        bzkFlash.Play();
+        bzkSmoke.Play();
+        print("Fire bazooka");
+        shootDir = c.transform.forward;
+        Instantiate(rocket, bazookaStartPoint.position, bazooka.transform.rotation);
+        rocket.GetComponent<Rocket>().Fire(shootDir);
+    }
+
 	void Update () {
         if (gm.currentState != GameState.Run) return;
-        if (Input.GetButton("Fire1")) {
-            if (currentGunState == GunState.Idle) {
-                currentGunState = GunState.Firing;
-                M3animator.SetBool("FireM3", true);
+
+        //print(Input.GetAxis("Mouse ScrollWheel"));
+
+        float mouseWheel = Input.GetAxis("Mouse ScrollWheel");
+
+        if (mouseWheel != 0) {
+            ChangeWeapon();
+        }
+
+        if (currentGunType == GunType.M3) {
+            if (Input.GetButtonDown("Fire1")) {
+                if (currentGunState == GunState.Idle) {
+                    currentGunState = GunState.Firing;
+                    M3animator.SetBool("FireM3", true);
+                }
+                FireM3();
             }
-            tickTime += Time.deltaTime;
-            if (tickTime >= fireRate) {
-                FireAGun();
-                tickTime -= fireRate;
+
+            if (Input.GetButton("Fire1")) {
+                if (currentGunState == GunState.Idle) {
+                    currentGunState = GunState.Firing;
+                    M3animator.SetBool("FireM3", true);
+                }
+                tickTimeM3 += Time.deltaTime;
+                if (tickTimeM3 >= M3fireRate) {
+                    FireM3();
+                    tickTimeM3 -= M3fireRate;
+                }
+            }
+            if (Input.GetButtonUp("Fire1") && currentGunState == GunState.Firing) {
+                currentGunState = GunState.Idle;
+                M3animator.SetBool("FireM3", false);
+                tickTimeM3 = 0;
+            }
+        } else if (currentGunType == GunType.RocketLauncher) {
+            if (Input.GetButtonDown("Fire1")) {
+                if (!bazookaFired) {
+                    FireBazoooka();
+                }
+            }
+            
+        }
+        if (bazookaFired) {
+            tickTimeBazooka += Time.deltaTime;
+            if (tickTimeBazooka >= bazookaFireRate) {
+                bazookaFired = false;
+                tickTimeBazooka -= bazookaFireRate;
             }
         }
-        if (Input.GetButtonUp("Fire1") && currentGunState == GunState.Firing) {
-            currentGunState = GunState.Idle;
-            M3animator.SetBool("FireM3", false);
-        }
-	}
+
+    }
 }
