@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour {
     public Vector3 moveDir;
     GameManager gm;
     bool jumped;
+    bool goingDown;
     Rigidbody rb;
 
 
@@ -97,6 +98,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         if (jumped) {
+
             if (rb.velocity.y == 0) {
                 jumped = false;
             }

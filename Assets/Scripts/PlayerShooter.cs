@@ -33,11 +33,16 @@ public class PlayerShooter : MonoBehaviour {
     public float bazookaFireRate;
     public float bazookaMaxRange;
     public GameObject M3;
+    public WeaponM3 weaponM3;
     public GameObject bazooka;
     float tickTimeBazooka;
     bool bazookaFired;
     public Transform bazookaStartPoint;
     public GameObject rocket;
+    public MouseAim mouseAim;
+
+    public AudioSource M3fireSound;
+    public AudioSource bazookaFire;
 
     void Start () {
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -59,22 +64,29 @@ public class PlayerShooter : MonoBehaviour {
 	
     void FireM3() {
         if (currentGunType == GunType.M3) {
+            M3fireSound.Play();
+            mouseAim.RecoilM3();
             M3flash.Play();
             M3smoke.Play();
             print("fire M3");
             shootDir = c.transform.forward;
             RaycastHit hit;
             ray = new Ray(startPoint.position, shootDir);
+
             if (Physics.Raycast(ray, out hit, M3maxRange, hitByPlayer)) {
                 print("hit something");
                 Quaternion rot = hit.transform.rotation;
                 Instantiate(thingie, hit.point, rot);
+                if (hit.transform.GetComponent<Enemy>() != null) {
+                    hit.transform.GetComponent<Enemy>().TakeAHit(transform.position);
+                }
             }
         }        
     }
 
     void FireBazoooka() {
         bazookaFired = true;
+        bazookaFire.Play();
         bzkFlash.Play();
         bzkSmoke.Play();
         print("Fire bazooka");
@@ -99,6 +111,7 @@ public class PlayerShooter : MonoBehaviour {
                 if (currentGunState == GunState.Idle) {
                     currentGunState = GunState.Firing;
                     M3animator.SetBool("FireM3", true);
+                    weaponM3.StartRecoiling();
                 }
                 FireM3();
             }
@@ -113,11 +126,13 @@ public class PlayerShooter : MonoBehaviour {
                     FireM3();
                     tickTimeM3 -= M3fireRate;
                 }
+
             }
             if (Input.GetButtonUp("Fire1") && currentGunState == GunState.Firing) {
                 currentGunState = GunState.Idle;
                 M3animator.SetBool("FireM3", false);
                 tickTimeM3 = 0;
+                weaponM3.StopRecoiling();
             }
         } else if (currentGunType == GunType.RocketLauncher) {
             if (Input.GetButtonDown("Fire1")) {

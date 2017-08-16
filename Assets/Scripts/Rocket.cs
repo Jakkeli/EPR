@@ -8,9 +8,11 @@ public class Rocket : MonoBehaviour {
     public ParticleSystem flame;
     public GameObject explosion;
     public bool fired;
+    bool hasHit;
     public Vector3 direction;
 
     GameObject cam;
+    public GameObject explosionPrefab;
 
     private void Awake() {
         cam = GameObject.Find("Main Camera");
@@ -18,15 +20,23 @@ public class Rocket : MonoBehaviour {
     }
 
     public void Fire(Vector3 dir) {
-        //direction = dir.normalized;
-        //direction = cam.transform.forward;
-        //fired = true;
-        //print(direction);
+        fired = true;
     }
 
 	void Update () {
         if (fired) transform.position += direction * Time.deltaTime * speed;
-        //if (fired) transform.Translate(transform.forward * speed * Time.deltaTime);
+    }
+
+    void OnHit() {
+        hasHit = true;
+        Instantiate(explosionPrefab);
+        GetComponent<MeshRenderer>().enabled = false;
+        Destroy(gameObject, 1);
+        print("rockethit a collider");
+    }
+
+    private void OnTriggerEnter(Collider c) {
+        if (!hasHit) OnHit();
 
     }
 }
