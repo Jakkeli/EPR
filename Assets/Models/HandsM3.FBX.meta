@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: f800a5595e09c6e45bfb1af5a80c0aeb
+timeCreated: 1505291144
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Be_L_hand
+    100002: Be_L_Index_E01
+    100004: Be_L_Little_D01
+    100006: Be_L_Middle_E01
+    100008: Be_L_Ring_E01
+    100010: Be_L_Thumb_D01
+    100012: Be_R_hand001
+    100014: Be_R_Index_E002
+    100016: Be_R_Little_D002
+    100018: Be_R_Middle_E002
+    100020: Be_R_Ring_E002
+    100022: Be_R_Thumb_D002
+    100024: Bn_L_ArmDown
+    100026: Bn_L_ArmUP
+    100028: Bn_L_Hand
+    100030: Bn_L_Index_A01
+    100032: Bn_L_Index_B01
+    100034: Bn_L_Index_C01
+    100036: Bn_L_Index_D01
+    100038: Bn_L_Little_A01
+    100040: Bn_L_Little_B01
+    100042: Bn_L_Little_C01
+    100044: Bn_L_Little_D01
+    100046: Bn_L_Middle_A01
+    100048: Bn_L_Middle_B01
+    100050: Bn_L_Middle_C01
+    100052: Bn_L_Middle_D01
+    100054: Bn_L_Ring_A01
+    100056: Bn_L_Ring_B01
+    100058: Bn_L_Ring_C01
+    100060: Bn_L_Ring_D01
+    100062: Bn_L_Thumb_A01
+    100064: Bn_L_Thumb_A01 1
+    100066: Bn_L_Thumb_B01
+    100068: Bn_R_ArmDown001
+    100070: Bn_R_ArmUP001
+    100072: Bn_R_Hand001
+    100074: Bn_R_Index_A002
+    100076: Bn_R_Index_B002
+    100078: Bn_R_Index_C002
+    100080: Bn_R_Index_D002
+    100082: Bn_R_Little_A002
+    100084: Bn_R_Little_B002
+    100086: Bn_R_Little_C002
+    100088: Bn_R_Little_D002
+    100090: Bn_R_Middle_A002
+    100092: Bn_R_Middle_B002
+    100094: Bn_R_Middle_C002
+    100096: Bn_R_Middle_D002
+    100098: Bn_R_Ring_A002
+    100100: Bn_R_Ring_B002
+    100102: Bn_R_Ring_C002
+    100104: Bn_R_Ring_D002
+    100106: Bn_R_Thumb_A002
+    100108: Bn_R_Thumb_A003
+    100110: Bn_R_Thumb_B002
+    100112: Bolt
+    100114: ChargeHandle
+    100116: //RootNode
+    100118: IK Chain002
+    100120: IK Chain003
+    100122: L_ArmController
+    100124: Lid
+    100126: LP_final
+    100128: Mag_empty
+    100130: Mag_Full
+    100132: R_ArmController
+    100134: Stock
+    100136: Test hands001
+    400000: Be_L_hand
+    400002: Be_L_Index_E01
+    400004: Be_L_Little_D01
+    400006: Be_L_Middle_E01
+    400008: Be_L_Ring_E01
+    400010: Be_L_Thumb_D01
+    400012: Be_R_hand001
+    400014: Be_R_Index_E002
+    400016: Be_R_Little_D002
+    400018: Be_R_Middle_E002
+    400020: Be_R_Ring_E002
+    400022: Be_R_Thumb_D002
+    400024: Bn_L_ArmDown
+    400026: Bn_L_ArmUP
+    400028: Bn_L_Hand
+    400030: Bn_L_Index_A01
+    400032: Bn_L_Index_B01
+    400034: Bn_L_Index_C01
+    400036: Bn_L_Index_D01
+    400038: Bn_L_Little_A01
+    400040: Bn_L_Little_B01
+    400042: Bn_L_Little_C01
+    400044: Bn_L_Little_D01
+    400046: Bn_L_Middle_A01
+    400048: Bn_L_Middle_B01
+    400050: Bn_L_Middle_C01
+    400052: Bn_L_Middle_D01
+    400054: Bn_L_Ring_A01
+    400056: Bn_L_Ring_B01
+    400058: Bn_L_Ring_C01
+    400060: Bn_L_Ring_D01
+    400062: Bn_L_Thumb_A01
+    400064: Bn_L_Thumb_A01 1
+    400066: Bn_L_Thumb_B01
+    400068: Bn_R_ArmDown001
+    400070: Bn_R_ArmUP001
+    400072: Bn_R_Hand001
+    400074: Bn_R_Index_A002
+    400076: Bn_R_Index_B002
+    400078: Bn_R_Index_C002
+    400080: Bn_R_Index_D002
+    400082: Bn_R_Little_A002
+    400084: Bn_R_Little_B002
+    400086: Bn_R_Little_C002
+    400088: Bn_R_Little_D002
+    400090: Bn_R_Middle_A002
+    400092: Bn_R_Middle_B002
+    400094: Bn_R_Middle_C002
+    400096: Bn_R_Middle_D002
+    400098: Bn_R_Ring_A002
+    400100: Bn_R_Ring_B002
+    400102: Bn_R_Ring_C002
+    400104: Bn_R_Ring_D002
+    400106: Bn_R_Thumb_A002
+    400108: Bn_R_Thumb_A003
+    400110: Bn_R_Thumb_B002
+    400112: Bolt
+    400114: ChargeHandle
+    400116: //RootNode
+    400118: IK Chain002
+    400120: IK Chain003
+    400122: L_ArmController
+    400124: Lid
+    400126: LP_final
+    400128: Mag_empty
+    400130: Mag_Full
+    400132: R_ArmController
+    400134: Stock
+    400136: Test hands001
+    2300000: Bolt
+    2300002: ChargeHandle
+    2300004: Lid
+    2300006: LP_final
+    2300008: Mag_empty
+    2300010: Mag_Full
+    2300012: Stock
+    3300000: Bolt
+    3300002: ChargeHandle
+    3300004: Lid
+    3300006: LP_final
+    3300008: Mag_empty
+    3300010: Mag_Full
+    3300012: Stock
+    4300000: Test hands001
+    4300002: LP_final
+    4300004: Stock
+    4300006: ChargeHandle
+    4300008: Lid
+    4300010: Bolt
+    4300012: Mag_empty
+    4300014: Mag_Full
+    7400000: Reload
+    9500000: //RootNode
+    13700000: Test hands001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reload
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

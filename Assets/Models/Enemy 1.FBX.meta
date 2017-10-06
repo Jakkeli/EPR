@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 88f6b5641b829d54dbe38260abdfb85c
+timeCreated: 1504177977
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Back_plate
+    100002: Bone106
+    100004: Bone107
+    100006: Bone108
+    100008: Bone109
+    100010: Bone110
+    100012: Bone111
+    100014: Bone112
+    100016: Bone113
+    100018: Bone114
+    100020: Bone115
+    100022: Bone116
+    100024: Bone117
+    100026: Bone118
+    100028: Bone119
+    100030: Bone120
+    100032: Bone121
+    100034: Bone122
+    100036: Bone123
+    100038: Bone124
+    100040: Bone125
+    100042: Bone126
+    100044: Bone127
+    100046: Bone128
+    100048: Bone129
+    100050: Bone130
+    100052: Bone131
+    100054: Bone132
+    100056: Bone133
+    100058: Bone134
+    100060: Bone135
+    100062: Bone136
+    100064: Bone137
+    100066: Bone138
+    100068: Bone139
+    100070: Bone140
+    100072: Bone141
+    100074: Bone142
+    100076: Bone143
+    100078: Bone144
+    100080: Bone145
+    100082: Bone146
+    100084: Bone147
+    100086: Bone148
+    100088: Bone149
+    100090: Bone150
+    100092: Bone151
+    100094: //RootNode
+    100096: F_plate
+    100098: Head
+    100100: L_Arm001
+    100102: L_arm001
+    100104: L_armup
+    100106: L_armup001
+    100108: L_foot001
+    100110: L_leg
+    100112: L_legup
+    100114: l_shoulder
+    100116: R_foot001
+    100118: R_leg
+    100120: R_legup
+    100122: R_shoulder
+    100124: Torso
+    400000: Back_plate
+    400002: Bone106
+    400004: Bone107
+    400006: Bone108
+    400008: Bone109
+    400010: Bone110
+    400012: Bone111
+    400014: Bone112
+    400016: Bone113
+    400018: Bone114
+    400020: Bone115
+    400022: Bone116
+    400024: Bone117
+    400026: Bone118
+    400028: Bone119
+    400030: Bone120
+    400032: Bone121
+    400034: Bone122
+    400036: Bone123
+    400038: Bone124
+    400040: Bone125
+    400042: Bone126
+    400044: Bone127
+    400046: Bone128
+    400048: Bone129
+    400050: Bone130
+    400052: Bone131
+    400054: Bone132
+    400056: Bone133
+    400058: Bone134
+    400060: Bone135
+    400062: Bone136
+    400064: Bone137
+    400066: Bone138
+    400068: Bone139
+    400070: Bone140
+    400072: Bone141
+    400074: Bone142
+    400076: Bone143
+    400078: Bone144
+    400080: Bone145
+    400082: Bone146
+    400084: Bone147
+    400086: Bone148
+    400088: Bone149
+    400090: Bone150
+    400092: Bone151
+    400094: //RootNode
+    400096: F_plate
+    400098: Head
+    400100: L_Arm001
+    400102: L_arm001
+    400104: L_armup
+    400106: L_armup001
+    400108: L_foot001
+    400110: L_leg
+    400112: L_legup
+    400114: l_shoulder
+    400116: R_foot001
+    400118: R_leg
+    400120: R_legup
+    400122: R_shoulder
+    400124: Torso
+    2300000: Back_plate
+    2300002: //RootNode
+    2300004: F_plate
+    2300006: Head
+    2300008: L_armup
+    2300010: L_armup001
+    2300012: L_foot001
+    2300014: L_leg
+    2300016: L_legup
+    2300018: l_shoulder
+    2300020: R_foot001
+    2300022: R_leg
+    2300024: R_legup
+    2300026: R_shoulder
+    2300028: Torso
+    3300000: Back_plate
+    3300002: //RootNode
+    3300004: F_plate
+    3300006: Head
+    3300008: L_armup
+    3300010: L_armup001
+    3300012: L_foot001
+    3300014: L_leg
+    3300016: L_legup
+    3300018: l_shoulder
+    3300020: R_foot001
+    3300022: R_leg
+    3300024: R_legup
+    3300026: R_shoulder
+    3300028: Torso
+    4300000: Pelvis001
+    4300002: L_legup
+    4300004: L_leg
+    4300006: L_foot001
+    4300008: R_legup
+    4300010: R_leg
+    4300012: R_foot001
+    4300014: Torso
+    4300016: l_shoulder
+    4300018: L_armup
+    4300020: L_Arm001
+    4300022: R_shoulder
+    4300024: L_armup001
+    4300026: L_arm001
+    4300028: Head
+    4300030: F_plate
+    4300032: Back_plate
+    7400000: Aim
+    7400002: Walk
+    9500000: //RootNode
+    13700000: L_Arm001
+    13700002: L_arm001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

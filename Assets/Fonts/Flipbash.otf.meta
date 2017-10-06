@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cd5aff10692077c469cc0f67b1bb471a
+timeCreated: 1506427509
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Flipbash
+  fontNames:
+  - Flipbash
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - WeaponCamera
+  - CP1
+  - CP2
+  - srdo
   layers:
   - Default
   - TransparentFX
@@ -15,17 +20,17 @@ TagManager:
   - 
   - Player
   - CanBeHit
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MinimapOnly
+  - Crosshair
+  - Floor
+  - Ground
+  - Weapon
+  - Roof
+  - Door
+  - EnemyPart
+  - Server
+  - Wall
+  - CanNotbeHit
   - 
   - 
   - 

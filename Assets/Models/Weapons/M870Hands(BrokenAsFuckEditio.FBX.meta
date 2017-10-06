@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 73735e6349cb67a47b8268845e0b301f
+timeCreated: 1505985220
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Be_center
+    100002: Be_center001
+    100004: Be_L_Arm_D002
+    100006: Be_L_Arm_D01
+    100008: Be_L_Index_D002
+    100010: Be_L_Index_D01
+    100012: Be_L_Little_D002
+    100014: Be_L_Little_D01
+    100016: Be_L_Middle_D002
+    100018: Be_L_Middle_D01
+    100020: Be_L_Ring_D002
+    100022: Be_L_Ring_D01
+    100024: Be_L_Thumb_C002
+    100026: Be_L_Thumb_C01
+    100028: Be_R_Arm_D002
+    100030: Be_R_Arm_D003
+    100032: Be_R_Index_D002
+    100034: Be_R_Index_D003
+    100036: Be_R_Little_D002
+    100038: Be_R_Little_D003
+    100040: Be_R_Middle_D002
+    100042: Be_R_Middle_D003
+    100044: Be_R_Ring_D002
+    100046: Be_R_Ring_D003
+    100048: Be_R_Thumb_C002
+    100050: Be_R_Thumb_C003
+    100052: Bn_center
+    100054: Bn_center001
+    100056: Bn_L_Arm_A002
+    100058: Bn_L_Arm_A01
+    100060: Bn_L_Arm_B002
+    100062: Bn_L_Arm_B01
+    100064: Bn_L_Arm_C002
+    100066: Bn_L_Arm_C01
+    100068: Bn_L_Index_A002
+    100070: Bn_L_Index_A01
+    100072: Bn_L_Index_B002
+    100074: Bn_L_Index_B01
+    100076: Bn_L_Index_C002
+    100078: Bn_L_Index_C01
+    100080: Bn_L_Little_A002
+    100082: Bn_L_Little_A01
+    100084: Bn_L_Little_B002
+    100086: Bn_L_Little_B01
+    100088: Bn_L_Little_C002
+    100090: Bn_L_Little_C01
+    100092: Bn_L_Middle_A002
+    100094: Bn_L_Middle_A01
+    100096: Bn_L_Middle_B002
+    100098: Bn_L_Middle_B01
+    100100: Bn_L_Middle_C002
+    100102: Bn_L_Middle_C01
+    100104: Bn_L_Ring_A002
+    100106: Bn_L_Ring_A01
+    100108: Bn_L_Ring_B002
+    100110: Bn_L_Ring_B01
+    100112: Bn_L_Ring_C002
+    100114: Bn_L_Ring_C01
+    100116: Bn_L_Thumb_A002
+    100118: Bn_L_Thumb_A01
+    100120: Bn_L_Thumb_B002
+    100122: Bn_L_Thumb_B01
+    100124: Bn_R_Arm_A002
+    100126: Bn_R_Arm_A003
+    100128: Bn_R_Arm_B002
+    100130: Bn_R_Arm_B003
+    100132: Bn_R_Arm_C002
+    100134: Bn_R_Arm_C003
+    100136: Bn_R_Index_A002
+    100138: Bn_R_Index_A003
+    100140: Bn_R_Index_B002
+    100142: Bn_R_Index_B003
+    100144: Bn_R_Index_C002
+    100146: Bn_R_Index_C003
+    100148: Bn_R_Little_A002
+    100150: Bn_R_Little_A003
+    100152: Bn_R_Little_B002
+    100154: Bn_R_Little_B003
+    100156: Bn_R_Little_C002
+    100158: Bn_R_Little_C003
+    100160: Bn_R_Middle_A002
+    100162: Bn_R_Middle_A003
+    100164: Bn_R_Middle_B002
+    100166: Bn_R_Middle_B003
+    100168: Bn_R_Middle_C002
+    100170: Bn_R_Middle_C003
+    100172: Bn_R_Ring_A002
+    100174: Bn_R_Ring_A003
+    100176: Bn_R_Ring_B002
+    100178: Bn_R_Ring_B003
+    100180: Bn_R_Ring_C002
+    100182: Bn_R_Ring_C003
+    100184: Bn_R_Thumb_A002
+    100186: Bn_R_Thumb_A003
+    100188: Bn_R_Thumb_B002
+    100190: Bn_R_Thumb_B003
+    100192: Bone002
+    100194: Bone004
+    100196: Bone005
+    100198: Bone006
+    100200: CharginHandle
+    100202: CharginHandle001
+    100204: Circle001
+    100206: Circle002
+    100208: IK Chain001
+    100210: IK Chain002
+    100212: //RootNode
+    100214: ShotGun
+    100216: Shotgun
+    100218: Shotgun 1
+    100220: Shotgun001
+    100222: Test hands
+    400000: Be_center
+    400002: Be_center001
+    400004: Be_L_Arm_D002
+    400006: Be_L_Arm_D01
+    400008: Be_L_Index_D002
+    400010: Be_L_Index_D01
+    400012: Be_L_Little_D002
+    400014: Be_L_Little_D01
+    400016: Be_L_Middle_D002
+    400018: Be_L_Middle_D01
+    400020: Be_L_Ring_D002
+    400022: Be_L_Ring_D01
+    400024: Be_L_Thumb_C002
+    400026: Be_L_Thumb_C01
+    400028: Be_R_Arm_D002
+    400030: Be_R_Arm_D003
+    400032: Be_R_Index_D002
+    400034: Be_R_Index_D003
+    400036: Be_R_Little_D002
+    400038: Be_R_Little_D003
+    400040: Be_R_Middle_D002
+    400042: Be_R_Middle_D003
+    400044: Be_R_Ring_D002
+    400046: Be_R_Ring_D003
+    400048: Be_R_Thumb_C002
+    400050: Be_R_Thumb_C003
+    400052: Bn_center
+    400054: Bn_center001
+    400056: Bn_L_Arm_A002
+    400058: Bn_L_Arm_A01
+    400060: Bn_L_Arm_B002
+    400062: Bn_L_Arm_B01
+    400064: Bn_L_Arm_C002
+    400066: Bn_L_Arm_C01
+    400068: Bn_L_Index_A002
+    400070: Bn_L_Index_A01
+    400072: Bn_L_Index_B002
+    400074: Bn_L_Index_B01
+    400076: Bn_L_Index_C002
+    400078: Bn_L_Index_C01
+    400080: Bn_L_Little_A002
+    400082: Bn_L_Little_A01
+    400084: Bn_L_Little_B002
+    400086: Bn_L_Little_B01
+    400088: Bn_L_Little_C002
+    400090: Bn_L_Little_C01
+    400092: Bn_L_Middle_A002
+    400094: Bn_L_Middle_A01
+    400096: Bn_L_Middle_B002
+    400098: Bn_L_Middle_B01
+    400100: Bn_L_Middle_C002
+    400102: Bn_L_Middle_C01
+    400104: Bn_L_Ring_A002
+    400106: Bn_L_Ring_A01
+    400108: Bn_L_Ring_B002
+    400110: Bn_L_Ring_B01
+    400112: Bn_L_Ring_C002
+    400114: Bn_L_Ring_C01
+    400116: Bn_L_Thumb_A002
+    400118: Bn_L_Thumb_A01
+    400120: Bn_L_Thumb_B002
+    400122: Bn_L_Thumb_B01
+    400124: Bn_R_Arm_A002
+    400126: Bn_R_Arm_A003
+    400128: Bn_R_Arm_B002
+    400130: Bn_R_Arm_B003
+    400132: Bn_R_Arm_C002
+    400134: Bn_R_Arm_C003
+    400136: Bn_R_Index_A002
+    400138: Bn_R_Index_A003
+    400140: Bn_R_Index_B002
+    400142: Bn_R_Index_B003
+    400144: Bn_R_Index_C002
+    400146: Bn_R_Index_C003
+    400148: Bn_R_Little_A002
+    400150: Bn_R_Little_A003
+    400152: Bn_R_Little_B002
+    400154: Bn_R_Little_B003
+    400156: Bn_R_Little_C002
+    400158: Bn_R_Little_C003
+    400160: Bn_R_Middle_A002
+    400162: Bn_R_Middle_A003
+    400164: Bn_R_Middle_B002
+    400166: Bn_R_Middle_B003
+    400168: Bn_R_Middle_C002
+    400170: Bn_R_Middle_C003
+    400172: Bn_R_Ring_A002
+    400174: Bn_R_Ring_A003
+    400176: Bn_R_Ring_B002
+    400178: Bn_R_Ring_B003
+    400180: Bn_R_Ring_C002
+    400182: Bn_R_Ring_C003
+    400184: Bn_R_Thumb_A002
+    400186: Bn_R_Thumb_A003
+    400188: Bn_R_Thumb_B002
+    400190: Bn_R_Thumb_B003
+    400192: Bone002
+    400194: Bone004
+    400196: Bone005
+    400198: Bone006
+    400200: CharginHandle
+    400202: CharginHandle001
+    400204: Circle001
+    400206: Circle002
+    400208: IK Chain001
+    400210: IK Chain002
+    400212: //RootNode
+    400214: ShotGun
+    400216: Shotgun
+    400218: Shotgun 1
+    400220: Shotgun001
+    400222: Test hands
+    4300000: ShotGun
+    4300002: Test hands
+    7400000: Fire
+    7400002: FirstShellIn
+    7400004: StartReload
+    7400006: ShellIn
+    7400008: WeaponSwap
+    7400010: Idle
+    7400012: EndReload
+    9500000: //RootNode
+    13700000: ShotGun
+    13700002: Test hands
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FirstShellIn
+      takeName: Take 001
+      firstFrame: 18
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StartReload
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShellIn
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WeaponSwap
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EndReload
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

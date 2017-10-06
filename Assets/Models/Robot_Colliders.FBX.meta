@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 768ce64f9ad17c54cb1e76336f8fab13
+timeCreated: 1505202053
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Anim_Global01
+    100002: Back_plate
+    100004: Be_head
+    100006: Be_L_Foot
+    100008: Be_L_Foot001
+    100010: Be_L_hand
+    100012: Be_L_Index
+    100014: Be_L_Little
+    100016: Be_L_Middle
+    100018: Be_L_Ring
+    100020: Be_L_thumb
+    100022: Be_R_hand
+    100024: Be_R_Index
+    100026: Be_R_Little
+    100028: Be_R_Middle
+    100030: Be_R_Ring
+    100032: Be_R_thumb
+    100034: Bn_head
+    100036: Bn_Hips
+    100038: Bn_L_Foot
+    100040: Bn_L_Foot001
+    100042: Bn_L_hand
+    100044: Bn_L_Index0
+    100046: Bn_L_Index1
+    100048: Bn_L_Index2
+    100050: Bn_L_Larm
+    100052: Bn_L_Leg0
+    100054: Bn_L_Leg003
+    100056: Bn_L_Leg004
+    100058: Bn_L_Leg005
+    100060: Bn_L_Leg1
+    100062: Bn_L_Leg2
+    100064: Bn_L_Little0
+    100066: Bn_L_Little1
+    100068: Bn_L_Little2
+    100070: Bn_L_Middle0
+    100072: Bn_L_Middle1
+    100074: Bn_L_Middle2
+    100076: Bn_L_Ring0
+    100078: Bn_L_Ring1
+    100080: Bn_L_Ring2
+    100082: Bn_L_Shoulder
+    100084: Bn_L_thumb0
+    100086: Bn_L_thumb1
+    100088: Bn_L_thumb2
+    100090: Bn_L_Uarm
+    100092: Bn_R_hand
+    100094: Bn_R_Index0
+    100096: Bn_R_Index1
+    100098: Bn_R_Index2
+    100100: Bn_R_Larm
+    100102: Bn_R_Little0
+    100104: Bn_R_Little1
+    100106: Bn_R_Little2
+    100108: Bn_R_Middle0
+    100110: Bn_R_Middle1
+    100112: Bn_R_Middle2
+    100114: Bn_R_Ring0
+    100116: Bn_R_Ring1
+    100118: Bn_R_Ring2
+    100120: Bn_R_Shoulder
+    100122: Bn_R_thumb0
+    100124: Bn_R_thumb1
+    100126: Bn_R_thumb2
+    100128: Bn_R_Uarm
+    100130: BN_torso
+    100132: Bone105
+    100134: Bone106
+    100136: Bone107
+    100138: Bone108
+    100140: F_plate
+    100142: Head
+    100144: IK Chain001
+    100146: IK Chain002
+    100148: IK Chain003
+    100150: IK Chain004
+    100152: L_Arm001
+    100154: L_armup
+    100156: L_foot001
+    100158: L_leg
+    100160: L_legup
+    100162: l_shoulder
+    100164: Pelvis001
+    100166: R_arm001
+    100168: R_armup001
+    100170: R_foot001
+    100172: R_leg
+    100174: R_legup
+    100176: R_shoulder
+    100178: //RootNode
+    100180: ShotGun
+    100182: Shtgun
+    100184: Torso
+    400000: Anim_Global01
+    400002: Back_plate
+    400004: Be_head
+    400006: Be_L_Foot
+    400008: Be_L_Foot001
+    400010: Be_L_hand
+    400012: Be_L_Index
+    400014: Be_L_Little
+    400016: Be_L_Middle
+    400018: Be_L_Ring
+    400020: Be_L_thumb
+    400022: Be_R_hand
+    400024: Be_R_Index
+    400026: Be_R_Little
+    400028: Be_R_Middle
+    400030: Be_R_Ring
+    400032: Be_R_thumb
+    400034: Bn_head
+    400036: Bn_Hips
+    400038: Bn_L_Foot
+    400040: Bn_L_Foot001
+    400042: Bn_L_hand
+    400044: Bn_L_Index0
+    400046: Bn_L_Index1
+    400048: Bn_L_Index2
+    400050: Bn_L_Larm
+    400052: Bn_L_Leg0
+    400054: Bn_L_Leg003
+    400056: Bn_L_Leg004
+    400058: Bn_L_Leg005
+    400060: Bn_L_Leg1
+    400062: Bn_L_Leg2
+    400064: Bn_L_Little0
+    400066: Bn_L_Little1
+    400068: Bn_L_Little2
+    400070: Bn_L_Middle0
+    400072: Bn_L_Middle1
+    400074: Bn_L_Middle2
+    400076: Bn_L_Ring0
+    400078: Bn_L_Ring1
+    400080: Bn_L_Ring2
+    400082: Bn_L_Shoulder
+    400084: Bn_L_thumb0
+    400086: Bn_L_thumb1
+    400088: Bn_L_thumb2
+    400090: Bn_L_Uarm
+    400092: Bn_R_hand
+    400094: Bn_R_Index0
+    400096: Bn_R_Index1
+    400098: Bn_R_Index2
+    400100: Bn_R_Larm
+    400102: Bn_R_Little0
+    400104: Bn_R_Little1
+    400106: Bn_R_Little2
+    400108: Bn_R_Middle0
+    400110: Bn_R_Middle1
+    400112: Bn_R_Middle2
+    400114: Bn_R_Ring0
+    400116: Bn_R_Ring1
+    400118: Bn_R_Ring2
+    400120: Bn_R_Shoulder
+    400122: Bn_R_thumb0
+    400124: Bn_R_thumb1
+    400126: Bn_R_thumb2
+    400128: Bn_R_Uarm
+    400130: BN_torso
+    400132: Bone105
+    400134: Bone106
+    400136: Bone107
+    400138: Bone108
+    400140: F_plate
+    400142: Head
+    400144: IK Chain001
+    400146: IK Chain002
+    400148: IK Chain003
+    400150: IK Chain004
+    400152: L_Arm001
+    400154: L_armup
+    400156: L_foot001
+    400158: L_leg
+    400160: L_legup
+    400162: l_shoulder
+    400164: Pelvis001
+    400166: R_arm001
+    400168: R_armup001
+    400170: R_foot001
+    400172: R_leg
+    400174: R_legup
+    400176: R_shoulder
+    400178: //RootNode
+    400180: ShotGun
+    400182: Shtgun
+    400184: Torso
+    2300000: Back_plate
+    2300002: F_plate
+    2300004: Head
+    2300006: L_armup
+    2300008: L_foot001
+    2300010: L_leg
+    2300012: L_legup
+    2300014: l_shoulder
+    2300016: Pelvis001
+    2300018: R_armup001
+    2300020: R_foot001
+    2300022: R_leg
+    2300024: R_legup
+    2300026: R_shoulder
+    2300028: Torso
+    3300000: Back_plate
+    3300002: F_plate
+    3300004: Head
+    3300006: L_armup
+    3300008: L_foot001
+    3300010: L_leg
+    3300012: L_legup
+    3300014: l_shoulder
+    3300016: Pelvis001
+    3300018: R_armup001
+    3300020: R_foot001
+    3300022: R_leg
+    3300024: R_legup
+    3300026: R_shoulder
+    3300028: Torso
+    4300000: ShotGun
+    4300002: R_foot001
+    4300004: R_leg
+    4300006: R_legup
+    4300008: Head
+    4300010: R_armup001
+    4300012: R_arm001
+    4300014: R_shoulder
+    4300016: Torso
+    4300018: l_shoulder
+    4300020: L_armup
+    4300022: L_Arm001
+    4300024: Pelvis001
+    4300026: F_plate
+    4300028: L_foot001
+    4300030: L_leg
+    4300032: L_legup
+    4300034: Back_plate
+    6400000: Back_plate
+    6400002: F_plate
+    6400004: Head
+    6400006: L_armup
+    6400008: L_foot001
+    6400010: L_leg
+    6400012: L_legup
+    6400014: l_shoulder
+    6400016: Pelvis001
+    6400018: R_armup001
+    6400020: R_foot001
+    6400022: R_leg
+    6400024: R_legup
+    6400026: R_shoulder
+    6400028: Torso
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: L_Arm001
+    13700002: R_arm001
+    13700004: ShotGun
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
